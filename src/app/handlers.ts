@@ -1,10 +1,10 @@
+import { Point } from "@influxdata/influxdb-client";
+import { randomInt } from "crypto";
 import { Application } from "express";
-import { runQuery } from "../db/query";
 
 const welcomeHandler = (app: Application) => {
     app.get('/', (req, res) => {
-        runQuery();
-        res.send("Hellow world");
+        res.send("success..");
     })
 };
 
