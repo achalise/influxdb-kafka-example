@@ -1,6 +1,6 @@
 # Why Time Series Database
 
-The kind of data we are collecting as  part of network pulse, for e.g. speed test results and node statuses etc, is different from traditional relational data. We are collecting performance and status metrics over time, which is mostly append only with no updates. 
+ Some kinds of data, for e.g. speed test results and node statuses etc, are different from traditional relational data. Time series data such as these events and metrics (performance and status metrics) are mostly append only with no updates. 
 
 Databases specifically designed to take advantage of the time series nature of the data have better performance. 
 
